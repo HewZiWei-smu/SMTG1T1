@@ -5,9 +5,20 @@ website:
   title: "my-website"
   navbar:
     left:
-      - href: index.qmd
-        text: Home
-      - about.qmd
+      - text: "Home"
+        href: index.qmd
+      - text: "Project Proposal"
+        href: projectproposal.qmd
+      - text: "Methodology"
+        href: methodology.qmd
+      - text: "Results & Discussion"
+        href: resultsdiscussion.qmd
+      - text: "Lesson Learned"
+        href: lessonlearned.qmd
+      - text: "Poster"
+        href: poster.qmd
+
+
 
 format:
   html:
