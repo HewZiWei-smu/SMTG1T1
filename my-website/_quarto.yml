@@ -2,7 +2,7 @@ project:
   type: website
 
 website:
-  title: "my-website"
+  title: "G1T1: project_name"
   navbar:
     left:
       - text: "Home"
