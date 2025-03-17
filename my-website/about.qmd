@@ -3,3 +3,5 @@ title: "About"
 ---
 
 About this site
+
+This page is my project team name, Kam's Roast.

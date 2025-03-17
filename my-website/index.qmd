@@ -1,7 +1,10 @@
 ---
 title: "my-website"
+date: "15 March 2025"
+date-modified: "last-modified"
 ---
 
-This is a Quarto website.
+Welcome to SMT201 GIS for Urban Planning Project Website. In this website, you can whatever...
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+![Roast](/assets/Kam's Roast.jpeg)
+

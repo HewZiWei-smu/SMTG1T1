@@ -5,25 +5,30 @@ website:
   title: "my-website"
   navbar:
     left:
-      - text: "Home"
-        href: index.qmd
-      - text: "Project Proposal"
-        href: projectproposal.qmd
+      - text: "Overview"
+        href: overview.qmd
       - text: "Methodology"
         href: methodology.qmd
       - text: "Results & Discussion"
-        href: resultsdiscussion.qmd
+        href: resultsdiscussion.qmd  
+      - text: "Project Proposal"
+        href: projectproposal.qmd
       - text: "Lesson Learned"
         href: lessonlearned.qmd
       - text: "Poster"
         href: poster.qmd
+    right:
+      - text: "Home"
+        href: index.qmd
+      - text: "Team"
+        href: about.qmd
 
 
 
 format:
   html:
     theme:
-      - cosmo
+      - lux
       - brand
     css: styles.css
     toc: true
