@@ -18,21 +18,21 @@
     "href": "projectproposal.html",
     "title": "Project Proposal",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "Bangkok is one of the fastest-growing cities in Southeast Asia, facing rapid urban expansion, increased infrastructure development, and significant environmental challenges. In response, the Green Bangkok 2030 project was launched to increase green spaces and make the city more livable and sustainable. However, measuring actual progress toward this goal requires objective, data-driven monitoring methods.\nSatellite-based remote sensing offers an efficient and scalable way to monitor changes in land cover over time. By using high-resolution temporal data from 2020 to 2024, this study seeks to assess how Bangkok’s urban landscape is evolving—particularly the extent of green space changes. This work is crucial for supporting evidence-based urban planning and evaluating the effectiveness of greening initiatives."
   },
   {
     "objectID": "resultsdiscussion.html",
     "href": "resultsdiscussion.html",
     "title": "Results & Discussion",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "The Buffer tool was used over the wadi_derna_boundary layer to generate a 50m buffer around the banks of the Wadi Derna."
   },
   {
     "objectID": "methodology.html",
     "href": "methodology.html",
     "title": "Methodology",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+    "text": "The table below lists the datasets used in this study:\n\n\n\nFile Name\nDescription\nSource\n\n\n\n\nderna_city_250m_hexagon.shp\n250m-width hexagonal layer encompassing Derna city limits\nESRI shapefile format on eLearn GIS Project Folder\n\n\nhotosm_lby_education_facilities_points_shp_point.shp\nOSM point layer of education facilities in Libya\nSource\n\n\nhotosm_lby_healthcare_facilities_points_shp_point.shp\nOSM point layer of healthcare facilities in Libya\nSource"
   },
   {
     "objectID": "lessonlearned.html",
@@ -47,5 +47,131 @@
     "title": "Poster",
     "section": "",
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "overview.html#study-area",
+    "href": "overview.html#study-area",
+    "title": "Overview",
+    "section": "Study Area",
+    "text": "Study Area\n\nSub Heading 1\n\n\nSub Heading 2"
+  },
+  {
+    "objectID": "overview.html#study-period",
+    "href": "overview.html#study-period",
+    "title": "Overview",
+    "section": "Study Period",
+    "text": "Study Period"
+  },
+  {
+    "objectID": "projectproposal.html#project-motivation",
+    "href": "projectproposal.html#project-motivation",
+    "title": "Project Proposal",
+    "section": "",
+    "text": "Bangkok is one of the fastest-growing cities in Southeast Asia, facing rapid urban expansion, increased infrastructure development, and significant environmental challenges. In response, the Green Bangkok 2030 project was launched to increase green spaces and make the city more livable and sustainable. However, measuring actual progress toward this goal requires objective, data-driven monitoring methods.\nSatellite-based remote sensing offers an efficient and scalable way to monitor changes in land cover over time. By using high-resolution temporal data from 2020 to 2024, this study seeks to assess how Bangkok’s urban landscape is evolving—particularly the extent of green space changes. This work is crucial for supporting evidence-based urban planning and evaluating the effectiveness of greening initiatives."
+  },
+  {
+    "objectID": "methodology.html#project-motivation",
+    "href": "methodology.html#project-motivation",
+    "title": "methodology",
+    "section": "",
+    "text": "Bangkok is one of the fastest-growing cities in Southeast Asia, facing rapid urban expansion, increased infrastructure development, and significant environmental challenges. In response, the Green Bangkok 2030 project was launched to increase green spaces and make the city more livable and sustainable. However, measuring actual progress toward this goal requires objective, data-driven monitoring methods.\nSatellite-based remote sensing offers an efficient and scalable way to monitor changes in land cover over time. By using high-resolution temporal data from 2020 to 2024, this study seeks to assess how Bangkok’s urban landscape is evolving—particularly the extent of green space changes. This work is crucial for supporting evidence-based urban planning and evaluating the effectiveness of greening initiatives."
+  },
+  {
+    "objectID": "methodology.html#project-objectives",
+    "href": "methodology.html#project-objectives",
+    "title": "Methodology",
+    "section": "Project Objectives",
+    "text": "Project Objectives\n\nTo detect and classify land cover types (e.g., built-up areas, vegetation, water bodies) in Bangkok using annual high-resolution satellite images from 2020 to 2024.\nTo quantify the spatial and temporal changes in green spaces and urban development over the study period.\nTo visualize and analyze patterns of urban expansion or greening using GIS-based maps and change detection techniques.\nTo evaluate the alignment between observed land cover changes and the targets set by the Green Bangkok 2030 initiative."
+  },
+  {
+    "objectID": "methodology.html#data-preperation",
+    "href": "methodology.html#data-preperation",
+    "title": "Methodology",
+    "section": "",
+    "text": "Bangkok is one of the fastest-growing cities in Southeast Asia, facing rapid urban expansion, increased infrastructure development, and significant environmental challenges. In response, the Green Bangkok 2030 project was launched to increase green spaces and make the city more livable and sustainable. However, measuring actual progress toward this goal requires objective, data-driven monitoring methods.\nSatellite-based remote sensing offers an efficient and scalable way to monitor changes in land cover over time. By using high-resolution temporal data from 2020 to 2024, this study seeks to assess how Bangkok’s urban landscape is evolving—particularly the extent of green space changes. This work is crucial for supporting evidence-based urban planning and evaluating the effectiveness of greening initiatives."
+  },
+  {
+    "objectID": "methodology.html#data-preparation",
+    "href": "methodology.html#data-preparation",
+    "title": "Methodology",
+    "section": "",
+    "text": "The table below lists the datasets used in this study:\n\n\n\nFile Name\nDescription\nSource\n\n\n\n\nderna_city_250m_hexagon.shp\n250m-width hexagonal layer encompassing Derna city limits\nESRI shapefile format on eLearn GIS Project Folder\n\n\nhotosm_lby_education_facilities_points_shp_point.shp\nOSM point layer of education facilities in Libya\nSource\n\n\nhotosm_lby_healthcare_facilities_points_shp_point.shp\nOSM point layer of healthcare facilities in Libya\nSource"
+  },
+  {
+    "objectID": "projectproposal.html#project-objectives",
+    "href": "projectproposal.html#project-objectives",
+    "title": "Project Proposal",
+    "section": "Project Objectives",
+    "text": "Project Objectives\n\nTo detect and classify land cover types (e.g., built-up areas, vegetation, water bodies) in Bangkok using annual high-resolution satellite images from 2020 to 2024.\nTo quantify the spatial and temporal changes in green spaces and urban development over the study period.\nTo visualize and analyze patterns of urban expansion or greening using GIS-based maps and change detection techniques.\nTo evaluate the alignment between observed land cover changes and the targets set by the Green Bangkok 2030 initiative."
+  },
+  {
+    "objectID": "methodology.html#data-preparation-1",
+    "href": "methodology.html#data-preparation-1",
+    "title": "Methodology",
+    "section": "DATA PREPARATION",
+    "text": "DATA PREPARATION"
+  },
+  {
+    "objectID": "methodology.html#preparation-procedures",
+    "href": "methodology.html#preparation-procedures",
+    "title": "Methodology",
+    "section": "PREPARATION PROCEDURES",
+    "text": "PREPARATION PROCEDURES\n\n3.2.1 50m_buffer (Long Term Planning Recommendations)\nThe Buffer tool was used over the wadi_derna_boundary layer to generate a 50m buffer around the banks of the Wadi Derna."
+  },
+  {
+    "objectID": "resultsdiscussion.html#data-preparation",
+    "href": "resultsdiscussion.html#data-preparation",
+    "title": "Results & Discussion",
+    "section": "",
+    "text": "The table below lists the datasets used in this study:\n\n\n\nFile Name\nDescription\nSource\n\n\n\n\nderna_city_250m_hexagon.shp\n250m-width hexagonal layer encompassing Derna city limits\nESRI shapefile format on eLearn GIS Project Folder\n\n\nhotosm_lby_education_facilities_points_shp_point.shp\nOSM point layer of education facilities in Libya\nSource\n\n\nhotosm_lby_healthcare_facilities_points_shp_point.shp\nOSM point layer of healthcare facilities in Libya\nSource"
+  },
+  {
+    "objectID": "resultsdiscussion.html#preparation-procedures",
+    "href": "resultsdiscussion.html#preparation-procedures",
+    "title": "Results & Discussion",
+    "section": "PREPARATION PROCEDURES",
+    "text": "PREPARATION PROCEDURES\n\n3.2.1 50m_buffer (Long Term Planning Recommendations)\nThe Buffer tool was used over the wadi_derna_boundary layer to generate a 50m buffer around the banks of the Wadi Derna."
+  },
+  {
+    "objectID": "resultsdiscussion.html#findings-recommendations",
+    "href": "resultsdiscussion.html#findings-recommendations",
+    "title": "Results & Discussion",
+    "section": "",
+    "text": "The Buffer tool was used over the wadi_derna_boundary layer to generate a 50m buffer around the banks of the Wadi Derna."
+  },
+  {
+    "objectID": "overview.html",
+    "href": "overview.html",
+    "title": "Overview",
+    "section": "",
+    "text": "Bangkok is rapidly urbanizing, and with this growth comes the challenge of balancing development with environmental sustainability. This project uses high-resolution satellite imagery from Sentinel-2 (or Landsat 8) between 2020 and 2024 to detect land cover changes in Bangkok, with a special focus on green spaces.\nBy leveraging remote sensing and GIS techniques, this study provides a data-driven view of how Bangkok’s landscape has evolved over five years, supporting the assessment of urban development trends in relation to the city’s Green Bangkok 2030 goals."
+  },
+  {
+    "objectID": "overview.html#introduction",
+    "href": "overview.html#introduction",
+    "title": "Overview",
+    "section": "",
+    "text": "Bangkok is rapidly urbanizing, and with this growth comes the challenge of balancing development with environmental sustainability. This project uses high-resolution satellite imagery from Sentinel-2 (or Landsat 8) between 2020 and 2024 to detect land cover changes in Bangkok, with a special focus on green spaces.\nBy leveraging remote sensing and GIS techniques, this study provides a data-driven view of how Bangkok’s landscape has evolved over five years, supporting the assessment of urban development trends in relation to the city’s Green Bangkok 2030 goals."
+  },
+  {
+    "objectID": "overview.html#objectives",
+    "href": "overview.html#objectives",
+    "title": "Overview",
+    "section": "Objectives",
+    "text": "Objectives\n\nTo classify major land cover types in Bangkok annually from 2020 to 2024.\nTo quantify the spatial and temporal changes in green spaces and built-up areas.\nTo visualize land cover transitions and detect urban expansion patterns.\nTo evaluate how these changes align with the Green Bangkok 2030 initiative."
+  },
+  {
+    "objectID": "overview.html#tools-data",
+    "href": "overview.html#tools-data",
+    "title": "Overview",
+    "section": "Tools & Data",
+    "text": "Tools & Data\n\nSatellite Imagery: Sentinel-2 / Landsat 8 (2020–2024)\nGIS Software: QGIS\nMethods: Supervised classification, NDVI analysis, change detection"
+  },
+  {
+    "objectID": "overview.html#why-it-matters",
+    "href": "overview.html#why-it-matters",
+    "title": "Overview",
+    "section": "Why It Matters",
+    "text": "Why It Matters\nThe results of this project can inform urban planners, policymakers, and researchers about the pace and patterns of land cover change in Bangkok. With green space being a vital component of urban resilience and public health, tracking its progression is critical to shaping a sustainable future for the city."
   }
 ]

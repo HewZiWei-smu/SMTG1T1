@@ -1,7 +1,17 @@
 ---
 title: "Project Proposal"
+format: html
 ---
 
-This is a Quarto website.
+## Project Motivation
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+Bangkok is one of the fastest-growing cities in Southeast Asia, facing rapid urban expansion, increased infrastructure development, and significant environmental challenges. In response, the Green Bangkok 2030 project was launched to increase green spaces and make the city more livable and sustainable. However, measuring actual progress toward this goal requires objective, data-driven monitoring methods.
+
+Satellite-based remote sensing offers an efficient and scalable way to monitor changes in land cover over time. By using high-resolution temporal data from 2020 to 2024, this study seeks to assess how Bangkok’s urban landscape is evolving—particularly the extent of green space changes. This work is crucial for supporting evidence-based urban planning and evaluating the effectiveness of greening initiatives.
+
+## Project Objectives
+
+- To detect and classify land cover types (e.g., built-up areas, vegetation, water bodies) in Bangkok using annual high-resolution satellite images from 2020 to 2024.
+- To quantify the spatial and temporal changes in green spaces and urban development over the study period.
+- To visualize and analyze patterns of urban expansion or greening using GIS-based maps and change detection techniques.
+- To evaluate the alignment between observed land cover changes and the targets set by the Green Bangkok 2030 initiative.

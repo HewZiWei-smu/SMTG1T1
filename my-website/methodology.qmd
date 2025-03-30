@@ -1,7 +1,22 @@
 ---
 title: "Methodology"
+format: html
 ---
 
-This is a Quarto website.
+## DATA PREPARATION
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+The table below lists the datasets used in this study:
+
+| **File Name** | **Description** | **Source** |
+|---------------|------------------|------------|
+| derna_city_250m_hexagon.shp | 250m-width hexagonal layer encompassing Derna city limits | ESRI shapefile format on eLearn GIS Project Folder |
+| hotosm_lby_education_facilities_points_shp_point.shp | OSM point layer of education facilities in Libya | [Source](#) |
+| hotosm_lby_healthcare_facilities_points_shp_point.shp | OSM point layer of healthcare facilities in Libya | [Source](#) |
+
+
+
+## PREPARATION PROCEDURES
+
+### 3.2.1 50m_buffer *(Long Term Planning Recommendations)*
+
+The Buffer tool was used over the `wadi_derna_boundary` layer to generate a 50m buffer around the banks of the Wadi Derna.

@@ -1,7 +1,11 @@
 ---
 title: "Results & Discussion"
+format: html
 ---
 
-This is a Quarto website.
+## FINDINGS & RECOMMENDATIONS
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+### 3.2.1 50m_buffer *(Long Term Planning Recommendations)*
+
+The Buffer tool was used over the `wadi_derna_boundary` layer to generate a 50m buffer around the banks of the Wadi Derna.
+

@@ -6,16 +6,27 @@ date-modified: "last-modified"
 
 
 ## Introduction
+Bangkok is rapidly urbanizing, and with this growth comes the challenge of balancing development with environmental sustainability. This project uses high-resolution satellite imagery from Sentinel-2 (or Landsat 8) between 2020 and 2024 to detect land cover changes in Bangkok, with a special focus on green spaces.
+
+By leveraging remote sensing and GIS techniques, this study provides a data-driven view of how Bangkok's landscape has evolved over five years, supporting the assessment of urban development trends in relation to the city's Green Bangkok 2030 goals.
 
 
 
-## Study Area
+## Objectives
+
+- To classify major land cover types in Bangkok annually from 2020 to 2024.
+- To quantify the spatial and temporal changes in green spaces and built-up areas.
+- To visualize land cover transitions and detect urban expansion patterns.
+- To evaluate how these changes align with the Green Bangkok 2030 initiative.
 
 
+## Tools & Data
+
+- Satellite Imagery: Sentinel-2 / Landsat 8 (2020–2024)
+- GIS Software: QGIS
+- Methods: Supervised classification, NDVI analysis, change detection
 
 
-### Sub Heading 1
+## Why It Matters
 
-### Sub Heading 2
-
-## Study Period
+The results of this project can inform urban planners, policymakers, and researchers about the pace and patterns of land cover change in Bangkok. With green space being a vital component of urban resilience and public health, tracking its progression is critical to shaping a sustainable future for the city.
