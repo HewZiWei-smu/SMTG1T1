@@ -1,7 +1,11 @@
 ---
-title: "Lesson Learned"
+title: "Lesson Learnt"
 ---
 
-This is a Quarto website.
+This project was an eye-opening experience for our team, as it allowed us to apply remote sensing and GIS techniques to analyze real-world land cover changes in a dynamic urban environment like Bangkok. Working with multi-temporal satellite data enhanced our understanding of how spatial technologies can be leveraged to track urban expansion, green space loss, and environmental trends over time.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+One of the most important lessons we learned was the **value of data-driven urban planning**. Through this project, we saw firsthand how geospatial tools can support cities in monitoring progress toward sustainability goals such as the **Green Bangkok 2030** initiative. It also emphasized the importance of maintaining and expanding green spaces in rapidly urbanizing cities, not just for aesthetics, but for climate resilience, public health, and quality of life.
+
+While technical challenges such as image preprocessing, classification accuracy, and cloud cover presented learning curves, they taught us the importance of methodological rigor and spatial thinking in GIS workflows.
+
+Most importantly, this project reinforced the idea that **GIS is more than just a tool — it’s a way to contribute to positive, real-world change**. Whether it's monitoring deforestation, guiding green infrastructure planning, or supporting disaster preparedness, spatial analysis holds the potential to shape better cities and a more sustainable future.
