@@ -141,7 +141,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#data-preparation" id="toc-data-preparation" class="nav-link active" data-scroll-target="#data-preparation">DATA PREPARATION</a></li>
   <li><a href="#preparation-procedures" id="toc-preparation-procedures" class="nav-link" data-scroll-target="#preparation-procedures">PREPARATION PROCEDURES</a>
   <ul class="collapse">
-  <li><a href="#m_buffer-long-term-planning-recommendations" id="toc-m_buffer-long-term-planning-recommendations" class="nav-link" data-scroll-target="#m_buffer-long-term-planning-recommendations">3.2.1 50m_buffer <em>(Long Term Planning Recommendations)</em></a></li>
+  <li><a href="#increasing-ratio-of-green-spaces" id="toc-increasing-ratio-of-green-spaces" class="nav-link" data-scroll-target="#increasing-ratio-of-green-spaces">3.2.1 Increasing ratio of green spaces</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -200,9 +200,45 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="preparation-procedures" class="level2">
 <h2 class="anchored" data-anchor-id="preparation-procedures">PREPARATION PROCEDURES</h2>
-<section id="m_buffer-long-term-planning-recommendations" class="level3">
-<h3 class="anchored" data-anchor-id="m_buffer-long-term-planning-recommendations">3.2.1 50m_buffer <em>(Long Term Planning Recommendations)</em></h3>
-<p>The Buffer tool was used over the <code>wadi_derna_boundary</code> layer to generate a 50m buffer around the banks of the Wadi Derna.</p>
+<section id="increasing-ratio-of-green-spaces" class="level3">
+<h3 class="anchored" data-anchor-id="increasing-ratio-of-green-spaces">3.2.1 Increasing ratio of green spaces</h3>
+<p>Goal: To determine whether Bangkok meets the target of 10 square meters of green space per person by comparing green space areas and population data between 2021 and 2025.</p>
+<ol type="1">
+<li><p>Prepare Data for Area Calculation:</p>
+<p>The clipped green space layers for both 2021 and 2025 were projected to EPSG:32647 (UTM Zone 47N) to ensure accurate area calculations in square meters.</p></li>
+<li><p>Calculate Green Space Area:</p>
+<p>The Field Calculator was used to create a new field named area using the expression:</p>
+<p>$area</p>
+<p>This calculated the area of each polygon feature in square meters.</p></li>
+<li><p>Select Public Green Spaces:</p>
+<p>The Select Features by Expression tool was used to isolate only green space features classified as public.</p>
+<p>The following expression was applied:</p>
+<p>“2025_Vectored_Green” = 1</p></li>
+<li><p>Compute Total Green Space Area:</p>
+<p>The Statistics Panel was used to sum the values in the area field for the selected features.</p>
+<p>The total green space areas were:</p>
+<pre><code> 2025: 484,421,000 m² (484.421 km²)
+
+ 2021: 437,733,000 m² (437.733 km²)</code></pre></li>
+<li><p>Calculate Net Change in Green Space:</p>
+<p>The difference between the two years was calculated:</p>
+<pre><code> Increase: 46.688 km² of green space from 2021 to 2025</code></pre></li>
+<li><p>Obtain Population Data:</p>
+<p>According to Macrotrends (n.d.), the population of Bangkok was:</p>
+<pre><code> 2021: 10,723,000 people
+
+ 2025: 11,392,000 people</code></pre></li>
+<li><p>Calculate Green Space Per Person (GSPP):</p>
+<p>The formula used:</p>
+<p>GSPP = Total&nbsp;Green&nbsp;Space&nbsp;Area&nbsp;(m²) / Population</p>
+<p>Results:</p>
+<pre><code> 2021 GSPP: 40.8&nbsp;sqm/person 
+ ​
+ 2025 GSPP: 42.5&nbsp;sqm/person</code></pre></li>
+<li><p>Conclusion:</p>
+<p>Both years exceed the minimum target of 10 sqm per person, with a modest increase of 1.7 sqm/person from 2021 to 2025.</p>
+<p>This indicates positive progress in enhancing urban green space access in Bangkok.</p></li>
+</ol>
 
 
 </section>

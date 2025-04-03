@@ -17,6 +17,69 @@ The table below lists the datasets used in this study:
 
 ## PREPARATION PROCEDURES
 
-### 3.2.1 50m_buffer *(Long Term Planning Recommendations)*
+### 3.2.1 Increasing ratio of green spaces 
 
-The Buffer tool was used over the `wadi_derna_boundary` layer to generate a 50m buffer around the banks of the Wadi Derna.
+Goal: To determine whether Bangkok meets the target of 10 square meters of green space per person by comparing green space areas and population data between 2021 and 2025.
+
+1. Prepare Data for Area Calculation:
+
+    The clipped green space layers for both 2021 and 2025 were projected to EPSG:32647 (UTM Zone 47N) to ensure accurate area calculations in square meters.
+
+2. Calculate Green Space Area:
+
+    The Field Calculator was used to create a new field named area using the expression:
+
+    $area
+
+    This calculated the area of each polygon feature in square meters.
+
+3. Select Public Green Spaces:
+
+    The Select Features by Expression tool was used to isolate only green space features classified as public.
+
+    The following expression was applied:
+
+    "2025_Vectored_Green" = 1
+
+4. Compute Total Green Space Area:
+
+    The Statistics Panel was used to sum the values in the area field for the selected features.
+
+    The total green space areas were:
+
+        2025: 484,421,000 m² (484.421 km²)
+
+        2021: 437,733,000 m² (437.733 km²)
+
+5. Calculate Net Change in Green Space:
+
+    The difference between the two years was calculated:
+
+        Increase: 46.688 km² of green space from 2021 to 2025
+
+6. Obtain Population Data:
+
+    According to Macrotrends (n.d.), the population of Bangkok was:
+
+        2021: 10,723,000 people
+
+        2025: 11,392,000 people
+
+7. Calculate Green Space Per Person (GSPP):
+
+    The formula used:
+
+    GSPP = Total Green Space Area (m²) / Population
+
+    Results:
+
+        2021 GSPP: 40.8 sqm/person 
+        ​
+        2025 GSPP: 42.5 sqm/person
+
+8. Conclusion:
+
+    Both years exceed the minimum target of 10 sqm per person, with a modest increase of 1.7 sqm/person from 2021 to 2025.
+
+    This indicates positive progress in enhancing urban green space access in Bangkok.
+
