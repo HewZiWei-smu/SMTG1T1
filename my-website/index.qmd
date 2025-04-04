@@ -4,7 +4,49 @@ date: "15 March 2025"
 date-modified: "last-modified"
 ---
 
-Welcome to SMT201 GIS for Urban Planning Project Website. In this website, you can whatever...
+Welcome to SMT201 GIS for Urban Planning Project Website. 
+
+Hello, we are Group 1. As part of the SMT201 AY 24/25 T2 Project, our group is exploring the use of GIS in understanding the progress made by Bangkok towards its 2030 Green Bangkok Goals.
 
 ![Roast](/assets/Kam's Roast.jpeg)
 
+
+## Project Motivation
+Bangkok, the capital of Thailand, is a major city in Southeast Asia facing rapid urbanization due to its low cost of living and thriving remote working landscape. However, this urbanization has placed pressure on urban amenities, notably the provision of urban greenery. 
+
+In 2022, Bangkok had just 7sqm of public green space per capita - far lower than the World Health Organization's recommended minimum of 9sqm per capita, and measly compared to the average of 39spm / capita across 22 other comparable Asian cities in size. 
+
+As such, to tackle this issue, the Bangkok government proposed the Green Bangkok 2030 Project in 2020, as part of Thailand's commitment towards the 2015 Paris Agreement. The objective of the project was to increase sustainable, quality green spaces in Bangkok through three targets:
+
+1. Increasing the ratio of green space to 10sqm / person
+
+2. Increasing public green space accessible within 400m by no less than 50% of Bangkok's total area
+
+3. Increasing urban treen canopy per urban area to 30% of Bangkok's total area. 
+
+With 2025 as the halfway mark, we'll be using GIS data to identify if there has been progress made towards achieving the Green Bangkok 2030 Project's targets. 
+
+### Objectives
+The objectives of the project is therefore to:
+
+1. Investigate the changes in vegetation in the Bangkok metropolitan area between 2021 and 2025.
+
+2. Analyze the types of greenery cover which have been increased or decreased during this time period
+
+3. Conclude if Bangkok is on track to meeting its targets. 
+
+
+
+## Methodology
+The key methodologies of this project include:
+
+- Data Preparation and exploration
+    - Data sourced from
+        - Copernicus Landsat 2A
+
+- Land cover classification with statistical and machine learning algorithms
+    - Maximum Likelihood
+
+- Land cover change analysis
+
+In particular, the Semi-Automatic Classification Plugin and Raster Calculator in QGIS is used for this project in land cover classification and change analysis
