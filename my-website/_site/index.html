@@ -134,8 +134,18 @@ ul.task-list li input[type="checkbox"] {
 <div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#project-motivation" id="toc-project-motivation" class="nav-link active" data-scroll-target="#project-motivation">Project Motivation</a>
+  <ul class="collapse">
+  <li><a href="#objectives" id="toc-objectives" class="nav-link" data-scroll-target="#objectives">Objectives</a></li>
+  </ul></li>
+  <li><a href="#methodology" id="toc-methodology" class="nav-link" data-scroll-target="#methodology">Methodology</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content" id="quarto-document-content">
@@ -160,7 +170,7 @@ ul.task-list li input[type="checkbox"] {
     <div>
     <div class="quarto-title-meta-heading">Modified</div>
     <div class="quarto-title-meta-contents">
-      <p class="date-modified">March 17, 2025</p>
+      <p class="date-modified">April 5, 2025</p>
     </div>
   </div>
     
@@ -171,15 +181,56 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<p>Welcome to SMT201 GIS for Urban Planning Project Website. In this website, you can whatever…</p>
+<p>Welcome to SMT201 GIS for Urban Planning Project Website.</p>
+<p>Hello, we are Group 1. As part of the SMT201 AY 24/25 T2 Project, our group is exploring the use of GIS in understanding the progress made by Bangkok towards its 2030 Green Bangkok Goals.</p>
 <div class="quarto-figure quarto-figure-center">
 <figure class="figure">
 <p><img src=".\assets/Kam's Roast.jpeg" class="img-fluid figure-img"></p>
 <figcaption>Roast</figcaption>
 </figure>
 </div>
+<section id="project-motivation" class="level2">
+<h2 class="anchored" data-anchor-id="project-motivation">Project Motivation</h2>
+<p>Bangkok, the capital of Thailand, is a major city in Southeast Asia facing rapid urbanization due to its low cost of living and thriving remote working landscape. However, this urbanization has placed pressure on urban amenities, notably the provision of urban greenery.</p>
+<p>In 2022, Bangkok had just 7sqm of public green space per capita - far lower than the World Health Organization’s recommended minimum of 9sqm per capita, and measly compared to the average of 39spm / capita across 22 other comparable Asian cities in size.</p>
+<p>As such, to tackle this issue, the Bangkok government proposed the Green Bangkok 2030 Project in 2020, as part of Thailand’s commitment towards the 2015 Paris Agreement. The objective of the project was to increase sustainable, quality green spaces in Bangkok through three targets:</p>
+<ol type="1">
+<li><p>Increasing the ratio of green space to 10sqm / person</p></li>
+<li><p>Increasing public green space accessible within 400m by no less than 50% of Bangkok’s total area</p></li>
+<li><p>Increasing urban treen canopy per urban area to 30% of Bangkok’s total area.</p></li>
+</ol>
+<p>With 2025 as the halfway mark, we’ll be using GIS data to identify if there has been progress made towards achieving the Green Bangkok 2030 Project’s targets.</p>
+<section id="objectives" class="level3">
+<h3 class="anchored" data-anchor-id="objectives">Objectives</h3>
+<p>The objectives of the project is therefore to:</p>
+<ol type="1">
+<li><p>Investigate the changes in vegetation in the Bangkok metropolitan area between 2021 and 2025.</p></li>
+<li><p>Analyze the types of greenery cover which have been increased or decreased during this time period</p></li>
+<li><p>Conclude if Bangkok is on track to meeting its targets.</p></li>
+</ol>
+</section>
+</section>
+<section id="methodology" class="level2">
+<h2 class="anchored" data-anchor-id="methodology">Methodology</h2>
+<p>The key methodologies of this project include:</p>
+<ul>
+<li>Data Preparation and exploration
+<ul>
+<li>Data sourced from
+<ul>
+<li>Copernicus Landsat 2A</li>
+</ul></li>
+</ul></li>
+<li>Land cover classification with statistical and machine learning algorithms
+<ul>
+<li>Maximum Likelihood</li>
+</ul></li>
+<li>Land cover change analysis</li>
+</ul>
+<p>In particular, the Semi-Automatic Classification Plugin and Raster Calculator in QGIS is used for this project in land cover classification and change analysis</p>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

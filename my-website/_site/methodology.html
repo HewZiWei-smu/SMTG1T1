@@ -142,6 +142,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#preparation-procedures" id="toc-preparation-procedures" class="nav-link" data-scroll-target="#preparation-procedures">PREPARATION PROCEDURES</a>
   <ul class="collapse">
   <li><a href="#increasing-ratio-of-green-spaces" id="toc-increasing-ratio-of-green-spaces" class="nav-link" data-scroll-target="#increasing-ratio-of-green-spaces">3.2.1 Increasing ratio of green spaces</a></li>
+  <li><a href="#increasing-public-green-spaces" id="toc-increasing-public-green-spaces" class="nav-link" data-scroll-target="#increasing-public-green-spaces">3.2.2 Increasing public green spaces</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -239,6 +240,29 @@ ul.task-list li input[type="checkbox"] {
 <p>Both years exceed the minimum target of 10 sqm per person, with a modest increase of 1.7 sqm/person from 2021 to 2025.</p>
 <p>This indicates positive progress in enhancing urban green space access in Bangkok.</p></li>
 </ol>
+</section>
+<section id="increasing-public-green-spaces" class="level3">
+<h3 class="anchored" data-anchor-id="increasing-public-green-spaces">3.2.2 Increasing public green spaces</h3>
+<p>Applying an Area Threshold</p>
+<p>To ensure meaningful analysis of publicly accessible green spaces, an area threshold of 10,000 m² (1 hectare) was applied. This step filters out minor vegetation features such as street medians, roadside trees, and small decorative patches, which are unlikely to serve as formal public parks or recreational areas.</p>
+<p>Expression used in QGIS:</p>
+<p>“2021_Vectored_Gr” = 1 AND “area” &gt; 10000</p>
+<p>This refinement:</p>
+<p>Retains only green features larger than 10,000 m²</p>
+<p>Likely captures significant green zones such as public parks and urban forests</p>
+<p>Eliminates smaller, non-functional or inaccessible green patches</p>
+<p>The resulting dataset allows for a more realistic assessment of green space accessibility.</p>
+<p>2021 Analysis: In 2021, filtered features from the “Clipped Natural Greenery 2021” layer were buffered using a 400-meter radius to represent walkable access to green areas. The output was dissolved to prevent overlap inflation and clipped to Bangkok’s administrative boundary.</p>
+<p>Buffered Area: 346,418,000 m²</p>
+<p>Total Bangkok Area: ~1,570,000,000 m²</p>
+<p>Accessibility Coverage: 22.06%</p>
+<p>This indicates that just over one-fifth of the city was within 400 meters of a significant public green space in 2021.</p>
+<p>2025 Analysis: Using the same methodology, the 2025 dataset was filtered and processed. The buffer zone was again limited to 400 meters, dissolved, and clipped to Bangkok’s boundary.</p>
+<p>Buffered Area: 394,777,000 m²</p>
+<p>Accessibility Coverage: 25.14%</p>
+<p>This shows a modest increase in access, reflecting some progress toward Bangkok’s green space targets.</p>
+<p>Conclusion: From 2021 to 2025, the proportion of Bangkok’s land area within 400 meters of large public green spaces increased from 22.06% to 25.14%, reflecting a 3.08 percentage point improvement.</p>
+<p>While this growth is positive, it still falls short of the 50% target for universal walkable access to green spaces. This highlights the need for continued investment in park development, better spatial planning, and potentially more equitable green space distribution across the city.</p>
 
 
 </section>
