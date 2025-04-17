@@ -41,9 +41,12 @@ The key methodologies of this project include:
 - Data Preparation and exploration
     - Data sourced from
         - Copernicus Landsat 2A
+        - Bangkok Administrative GeoJSON: https://data.humdata.org/dataset/cod-ab-tha
+        
 
 - Land cover classification with statistical and machine learning algorithms
     - Maximum Likelihood
+    - Random Forest
 
 - Land cover change analysis
 
