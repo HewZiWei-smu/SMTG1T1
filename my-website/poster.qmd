@@ -1,7 +1,6 @@
 ---
-title: "Poster"
+title: "Our Poster"
 ---
 
-This is a Quarto website.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+![Our Poster](assets/G1T1 Poster.jpg)
