@@ -141,8 +141,13 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#data-preparation" id="toc-data-preparation" class="nav-link active" data-scroll-target="#data-preparation">DATA PREPARATION</a></li>
   <li><a href="#preparation-procedures" id="toc-preparation-procedures" class="nav-link" data-scroll-target="#preparation-procedures">PREPARATION PROCEDURES</a>
   <ul class="collapse">
+  <li><a href="#data-preparation-1" id="toc-data-preparation-1" class="nav-link" data-scroll-target="#data-preparation-1">1.0.1 Data Preparation</a></li>
+  <li><a href="#data-loading" id="toc-data-loading" class="nav-link" data-scroll-target="#data-loading">1.0.2 Data Loading</a></li>
+  <li><a href="#data-exploration" id="toc-data-exploration" class="nav-link" data-scroll-target="#data-exploration">1.1.0 Data exploration</a></li>
+  <li><a href="#areas-of-interest" id="toc-areas-of-interest" class="nav-link" data-scroll-target="#areas-of-interest">2.0.1 Areas of Interest</a></li>
   <li><a href="#increasing-ratio-of-green-spaces" id="toc-increasing-ratio-of-green-spaces" class="nav-link" data-scroll-target="#increasing-ratio-of-green-spaces">3.2.1 Increasing ratio of green spaces</a></li>
   <li><a href="#increasing-public-green-spaces" id="toc-increasing-public-green-spaces" class="nav-link" data-scroll-target="#increasing-public-green-spaces">3.2.2 Increasing public green spaces</a></li>
+  <li><a href="#urban-tree-canopy" id="toc-urban-tree-canopy" class="nav-link" data-scroll-target="#urban-tree-canopy">3.2.3 Urban Tree Canopy</a></li>
   </ul></li>
   </ul>
 </nav>
@@ -201,6 +206,40 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="preparation-procedures" class="level2">
 <h2 class="anchored" data-anchor-id="preparation-procedures">PREPARATION PROCEDURES</h2>
+<section id="data-preparation-1" class="level3">
+<h3 class="anchored" data-anchor-id="data-preparation-1">1.0.1 Data Preparation</h3>
+<p>Goal: To download and prepare data 1. Download Copernicus data:</p>
+<pre><code>On the Copernicus portal, select Copernicus L2A data for the Bangkok region. The filtering criteria would be &lt;5% cloud cover, and between January - March of 2020 and 2025. </code></pre>
+<ol start="2" type="1">
+<li><p>Download Bangkok GIS data:</p>
+<p>Obtain the GeoJSON of the Bangkok Administrative Area</p></li>
+</ol>
+</section>
+<section id="data-loading" class="level3">
+<h3 class="anchored" data-anchor-id="data-loading">1.0.2 Data Loading</h3>
+<ol type="1">
+<li><p>Load the Copernicus datasets into QGIS.</p>
+<p>Only load the B02, B03, B04, B08 layers for 2021 and 2025. Rename them according to the convention “B0[]_202[]“” and group them by year into groups.</p></li>
+<li><p>Load the Bangkok GeoJSON into QGIS.</p>
+<p>After loading, select attributes by Administrative Region = Bangkok. Save the selected attributes into a new layer, “Bangkok” and use it in place of the full layer.</p></li>
+</ol>
+</section>
+<section id="data-exploration" class="level3">
+<h3 class="anchored" data-anchor-id="data-exploration">1.1.0 Data exploration</h3>
+<ol type="1">
+<li><p>Band Set creation</p>
+<p>For each year, create a new band set. Ensure the bands are in ascending order. After which, use the SCP plugin to use 4 - 3 - 2 False Color Composite and save the band set by year. This will help us easily identify vegeration from the raster data.</p></li>
+<li><p>Normalized Difference Vegetation Index (NDVI) layers</p>
+<p>Create NDVI layers for each year by using the raster calculator using the formula (B08 - B04) / (B08 + B04). Save the layer after checking. Once both years’ layers are created, created a difference layer using the formula (2025 NDVI - 2021 NDVI) to identify change in NDVI.</p></li>
+</ol>
+</section>
+<section id="areas-of-interest" class="level3">
+<h3 class="anchored" data-anchor-id="areas-of-interest">2.0.1 Areas of Interest</h3>
+<ol type="1">
+<li><p>Clip all raster layers to the Bangkok vector</p></li>
+<li><p>Within the Bangkok region, bookmark the residential area of Lat Phrao and the CBD area of Chong Nonsi for further detailed analysis.</p></li>
+</ol>
+</section>
 <section id="increasing-ratio-of-green-spaces" class="level3">
 <h3 class="anchored" data-anchor-id="increasing-ratio-of-green-spaces">3.2.1 Increasing ratio of green spaces</h3>
 <p>Goal: To determine whether Bangkok meets the target of 10 square meters of green space per person by comparing green space areas and population data between 2021 and 2025.</p>
@@ -237,8 +276,8 @@ ul.task-list li input[type="checkbox"] {
  ​
  2025 GSPP: 42.5&nbsp;sqm/person</code></pre></li>
 <li><p>Conclusion:</p>
-<p>Both years exceed the minimum target of 10 sqm per person, with a modest increase of 1.7 sqm/person from 2021 to 2025.</p>
-<p>This indicates positive progress in enhancing urban green space access in Bangkok.</p></li>
+<p>Both years’ calculations exceed the minimum target of 10 sqm per person, with a modest increase of 1.7 sqm/person from 2021 to 2025.</p>
+<p>This would indicates positive progress in enhancing urban green space access in Bangkok. However, this differs significantly from the publicly available data of 6sqm per person in 2021 and 7.3 sqm per person in 2025. We believe this to be differences in urban boundary establishment and / or differences in population statistics, to which we were unable to find official sources to determine the geographical boundary or population number to calculate from. Nevertheless, both the official and our calculated statistic reflects a growing urban greenery area in Bangkok.</p></li>
 </ol>
 </section>
 <section id="increasing-public-green-spaces" class="level3">
@@ -263,6 +302,21 @@ ul.task-list li input[type="checkbox"] {
 <p>This shows a modest increase in access, reflecting some progress toward Bangkok’s green space targets.</p>
 <p>Conclusion: From 2021 to 2025, the proportion of Bangkok’s land area within 400 meters of large public green spaces increased from 22.06% to 25.14%, reflecting a 3.08 percentage point improvement.</p>
 <p>While this growth is positive, it still falls short of the 50% target for universal walkable access to green spaces. This highlights the need for continued investment in park development, better spatial planning, and potentially more equitable green space distribution across the city.</p>
+</section>
+<section id="urban-tree-canopy" class="level3">
+<h3 class="anchored" data-anchor-id="urban-tree-canopy">3.2.3 Urban Tree Canopy</h3>
+<p>To evaluate changes in visible tree cover across Bangkok from 2021 to 2025, a multi-step remote sensing approach was used:</p>
+<p>Satellite Imagery Selection Copernicus Sentinel-2 Level 2A data was sourced for January–March 2021 and 2025, with cloud cover below 5%.</p>
+<p>NDVI &amp; Band Selection A vegetation density index was created using bands B02, B03, B04, and B08 at 10-meter resolution.</p>
+<p>Tree Detection via Classification A Random Forest classification model was trained to detect tree cover specifically, improving differentiation between grass, shrubs, and trees.</p>
+<p>Vectorization &amp; Area Calculation The classified raster was vectorized to allow for area-based analysis of greenery.</p>
+<p>Urban Tree Canopy Ratio Tree canopy ratio was calculated using:</p>
+<p>Tree Canopy Ratio = Greenery Area / Total Area of Sample Location</p>
+<p>This was applied to two contrasting urban zones — Chong Nonsi (CBD) and Lat Phrao (Residential) — to compare greenery in dense vs.&nbsp;suburban context</p>
+<p>Results: 2021: 16.6% 2025: 19%</p>
+<p>Conclusion: Between 2021 and 2025, Bangkok’s urban tree canopy ratio increased from 16.6% to 19%, indicating a positive trend in visible tree coverage. This growth suggests that efforts to expand urban greenery—whether through tree planting or preserving existing canopy—are beginning to take effect.</p>
+<p>However, the relatively small increase (+2.4 percentage points) highlights that progress is gradual and may be uneven across different urban zones. The comparison between Chong Nonsi (CBD) and Lat Phrao (Residential) also reflects the challenge of expanding greenery in high-density areas, where space constraints limit planting opportunities.</p>
+<p>This suggests that while the city is moving in the right direction, accelerated and location-sensitive greening strategies are still needed to meet long-term urban sustainability goals.</p>
 
 
 </section>

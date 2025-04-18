@@ -166,3 +166,38 @@ Conclusion:
 From 2021 to 2025, the proportion of Bangkok’s land area within 400 meters of large public green spaces increased from 22.06% to 25.14%, reflecting a 3.08 percentage point improvement.
 
 While this growth is positive, it still falls short of the 50% target for universal walkable access to green spaces. This highlights the need for continued investment in park development, better spatial planning, and potentially more equitable green space distribution across the city.
+
+
+### 3.2.3 Urban Tree Canopy
+
+To evaluate changes in visible tree cover across Bangkok from 2021 to 2025, a multi-step remote sensing approach was used:
+
+Satellite Imagery Selection
+Copernicus Sentinel-2 Level 2A data was sourced for January–March 2021 and 2025, with cloud cover below 5%.
+
+NDVI & Band Selection
+A vegetation density index was created using bands B02, B03, B04, and B08 at 10-meter resolution.
+
+Tree Detection via Classification
+A Random Forest classification model was trained to detect tree cover specifically, improving differentiation between grass, shrubs, and trees.
+
+Vectorization & Area Calculation
+The classified raster was vectorized to allow for area-based analysis of greenery.
+
+Urban Tree Canopy Ratio
+Tree canopy ratio was calculated using:
+
+Tree Canopy Ratio = Greenery Area / Total Area of Sample Location 
+
+This was applied to two contrasting urban zones — Chong Nonsi (CBD) and Lat Phrao (Residential) — to compare greenery in dense vs. suburban context
+
+Results: 
+    2021: 16.6%
+    2025: 19%
+
+Conclusion:
+Between 2021 and 2025, Bangkok's urban tree canopy ratio increased from 16.6% to 19%, indicating a positive trend in visible tree coverage. This growth suggests that efforts to expand urban greenery—whether through tree planting or preserving existing canopy—are beginning to take effect.
+
+However, the relatively small increase (+2.4 percentage points) highlights that progress is gradual and may be uneven across different urban zones. The comparison between Chong Nonsi (CBD) and Lat Phrao (Residential) also reflects the challenge of expanding greenery in high-density areas, where space constraints limit planting opportunities.
+
+This suggests that while the city is moving in the right direction, accelerated and location-sensitive greening strategies are still needed to meet long-term urban sustainability goals.

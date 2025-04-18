@@ -4,8 +4,34 @@ format: html
 ---
 
 ## FINDINGS & RECOMMENDATIONS
+### 4.1 Increase in Greenery in Bangkok
 
-### 3.2.1 50m_buffer *(Long Term Planning Recommendations)*
+Finding:
+Bangkok's overall greenery increased between 2021 and 2025. NDVI analysis shows clear gains in vegetation cover, especially in outlying areas. The urban tree canopy ratio rose from 16.6% to 19%, and green space per person increased from 6 sqm to 25 sqm, exceeding the 2030 target of 10 sqm/person.
 
-The Buffer tool was used over the `wadi_derna_boundary` layer to generate a 50m buffer around the banks of the Wadi Derna.
+Recommendation:
+While this progress is encouraging, it is not enough to focus on quantity alone. The city should ensure green spaces are integrated into inner-city areas to prevent habitat fragmentation and maximize urban cooling and ecosystem benefits.
 
+### 4.2 Decrease in Greenery Density
+
+Finding:
+Despite more green cover, the density of greenery has declined in central districts. Formerly green-rich zones (e.g., CBD areas like Chong Nonsi) have been urbanized. Green areas are now more spread out and less clustered, reducing ecological value and limiting multifunctional use.
+
+Recommendation:
+Implement urban greening strategies in dense zones (e.g., pocket parks, rooftop gardens, vertical greening) to restore density where large parks are not feasible. Encourage developers to integrate green infrastructure into high-density projects.
+
+### 4.3 Accessibility to Green Spaces Remains Low
+
+Finding:
+Despite increases in total greenery, walkable access to public green space remains poor. Only 25.1% of Bangkok’s land is within 400m of large, publicly accessible green areas, far below the 2030 target of 50%. Accessibility improved only marginally (+3%) from 2021.
+
+Recommendation:
+Prioritize green space development in under-served neighborhoods, and explore converting underutilized or fenced-off green lots into public parks. Future greenery planning must focus on distribution and public access, not just expansion.
+
+### 4.4 Inaccessible Green Space
+
+Finding:
+Many green zones are private or reserved for future development, contributing to inflated coverage stats without providing actual public benefit.
+
+Recommendation:
+Conduct public accessibility audits and introduce policies that incentivize converting private greenery into shared community spaces (e.g., public-private park partnerships, open garden schemes).
