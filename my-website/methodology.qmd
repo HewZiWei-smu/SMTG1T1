@@ -35,6 +35,11 @@ Goal: To download and prepare data
     Create NDVI layers for each year by using the raster calculator using the formula (B08 - B04) / (B08 + B04). Save the layer after checking.
     Once both years' layers are created, created a difference layer using the formula (2025 NDVI - 2021 NDVI) to identify change in NDVI. 
 
+![Fig 1.1 Bangkok Greenery 2021](assets/overall_greenery_2021.jpg){fig-align="center" fig-cap="Bangkok Greenery 2021"}
+
+![Fig 1.2 Bangkok Greenery 2025](assets/overall_greenery_2025.jpg){fig-align="center" fig-cap="Bangkok Greenery 2025"}
+
+
 ### 2.0.1 Areas of Interest
 
 1. Clip all raster layers to the Bangkok vector
@@ -157,6 +162,15 @@ While this growth is positive, it still falls short of the 50% target for univer
 
 ### 3.2.3 Urban Tree Canopy
 
+![Fig 1.3 Lat Phrao Access to Greenery 2021](assets/access_greenery_2021_lp.jpg){fig-align="center" fig-cap="Lat Phrao Access to Greenery 2021"}
+
+![Fig 1.4 Lat Phrao Access to Greenery 2025](assets/access_greenery_2025_lp.jpg){fig-align="center" fig-cap="Lat Phrao Access to Greenery 2025"}
+
+
+![Fig 1.5 Chong Nonsi Access to Greenery 2021](assets/chong_nonsi_access_to_greenery_2021.jpg){fig-align="center" fig-cap="Chong Nonsi Access to Greenery 2021"}
+
+![Fig 1.6 Chong Nonsi Access to Greenery 2025](assets/chong_nonsi_access_to_greenery_2025.jpg){fig-align="center" fig-cap="Chong Nonsi Access to Greenery 2025"}
+
 To evaluate changes in visible tree cover across Bangkok from 2021 to 2025, a multi-step remote sensing approach was used:
 
 Satellite Imagery Selection
@@ -188,3 +202,9 @@ Between 2021 and 2025, Bangkok's urban tree canopy ratio increased from 16.6% to
 However, the relatively small increase (+2.4 percentage points) highlights that progress is gradual and may be uneven across different urban zones. The comparison between Chong Nonsi (CBD) and Lat Phrao (Residential) also reflects the challenge of expanding greenery in high-density areas, where space constraints limit planting opportunities.
 
 This suggests that while the city is moving in the right direction, accelerated and location-sensitive greening strategies are still needed to meet long-term urban sustainability goals.
+
+
+
+### References
+
+1. Macrotrends. (n.d.). Bangkok, Thailand Metro Area Population 1950-2024. Retrieved March 30, 2025, from 'https://www.macrotrends.net/cities/22617/bangkok/population'
