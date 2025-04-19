@@ -1,13 +1,16 @@
 ---
-title: "my-website"
-date: "15 March 2025"
-date-modified: "last-modified"
+title: "About Us"
 ---
 
 Welcome to SMT201 GIS for Urban Planning Project Website. 
 
 Hello, we are Group 1. As part of the SMT201 AY 24/25 T2 Project, our group is exploring the use of GIS in understanding the progress made by Bangkok towards its 2030 Green Bangkok Goals.
 
+Group Members:
+
+Theron Tham 
+
+Hew Zi Wei
 
 ## Project Motivation
 Bangkok, the capital of Thailand, is a major city in Southeast Asia facing rapid urbanization due to its low cost of living and thriving remote working landscape. However, this urbanization has placed pressure on urban amenities, notably the provision of urban greenery. 

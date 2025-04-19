@@ -2,19 +2,6 @@
 title: "Methodology"
 format: html
 ---
-
-## DATA PREPARATION
-
-The table below lists the datasets used in this study:
-
-| **File Name** | **Description** | **Source** |
-|---------------|------------------|------------|
-| derna_city_250m_hexagon.shp | 250m-width hexagonal layer encompassing Derna city limits | ESRI shapefile format on eLearn GIS Project Folder |
-| hotosm_lby_education_facilities_points_shp_point.shp | OSM point layer of education facilities in Libya | [Source](#) |
-| hotosm_lby_healthcare_facilities_points_shp_point.shp | OSM point layer of healthcare facilities in Libya | [Source](#) |
-
-
-
 ## PREPARATION PROCEDURES
 
 ### 1.0.1 Data Preparation

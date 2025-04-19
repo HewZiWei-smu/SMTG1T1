@@ -3,7 +3,6 @@ title: "Results & Discussion"
 format: html
 ---
 
-## FINDINGS & RECOMMENDATIONS
 ### 4.1 Increase in Greenery in Bangkok
 
 Finding:
