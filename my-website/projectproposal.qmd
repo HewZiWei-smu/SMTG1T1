@@ -7,7 +7,7 @@ format: html
 
 Bangkok is one of the fastest-growing cities in Southeast Asia, facing rapid urban expansion, increased infrastructure development, and significant environmental challenges. In response, the Green Bangkok 2030 project was launched to increase green spaces and make the city more livable and sustainable. However, measuring actual progress toward this goal requires objective, data-driven monitoring methods.
 
-Satellite-based remote sensing offers an efficient and scalable way to monitor changes in land cover over time. By using high-resolution temporal data from 2020 to 2024, this study seeks to assess how Bangkok’s urban landscape is evolving—particularly the extent of green space changes. This work is crucial for supporting evidence-based urban planning and evaluating the effectiveness of greening initiatives.
+Satellite-based remote sensing offers an efficient and scalable way to monitor changes in land cover over time. By using high-resolution temporal data from 2020 to 2025, this study seeks to assess how Bangkok’s urban landscape is evolving—particularly the extent of green space changes. This work is crucial for supporting evidence-based urban planning and evaluating the effectiveness of greening initiatives.
 
 ## Project Objectives
 
@@ -17,3 +17,4 @@ Satellite-based remote sensing offers an efficient and scalable way to monitor c
 - To evaluate the alignment between observed land cover changes and the targets set by the Green Bangkok 2030 initiative.
 
 ## Project Timeline
+![Timeline](assets/SMT%20Timeline.png)
