@@ -20,9 +20,6 @@ website:
     right:
       - text: "Home"
         href: index.qmd
-      - text: "Team"
-        href: about.qmd
-
 
 
 format:
