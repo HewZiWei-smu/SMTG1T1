@@ -15,3 +15,5 @@ Satellite-based remote sensing offers an efficient and scalable way to monitor c
 - To quantify the spatial and temporal changes in green spaces and urban development over the study period.
 - To visualize and analyze patterns of urban expansion or greening using GIS-based maps and change detection techniques.
 - To evaluate the alignment between observed land cover changes and the targets set by the Green Bangkok 2030 initiative.
+
+## Project Timeline
