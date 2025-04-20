@@ -1,7 +1,5 @@
 ---
 title: "Web Map"
-date: "15 March 2025"
-date-modified: "last-modified"
 ---
 
 
