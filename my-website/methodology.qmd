@@ -112,6 +112,8 @@ Goal: To determine whether Bangkok meets the target of 10 square meters of green
 
     This would indicates positive progress in enhancing urban green space access in Bangkok. However, this differs significantly from the publicly available data of 6sqm per person in 2021 and 7.3 sqm per person in 2025. We believe this to be differences in urban boundary establishment and / or differences in population statistics, to which we were unable to find official sources to determine the geographical boundary or population number to calculate from. Nevertheless, both the official and our calculated statistic reflects a growing urban greenery area in Bangkok.
 
+    Using the NDVI instead of a SCP classified layer was chosen due to the high inaccuracy of classification. Due to the high density of Bangkok and fragmented green areas, classifiers like Random Forest and Maximum Likelihood were extremely inaccurate to base off any concrete analysis. 
+
 
 ### 3.2.2 Increasing public green spaces
 
