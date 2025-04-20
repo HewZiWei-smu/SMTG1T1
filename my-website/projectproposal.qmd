@@ -18,3 +18,7 @@ Satellite-based remote sensing offers an efficient and scalable way to monitor c
 
 ## Project Timeline
 ![Timeline](assets/SMT%20Timeline.png)
+
+
+## Project minutes
+[Minutes](https://docs.google.com/spreadsheets/d/1B4Aw0tX5lEL25pSs6_sndRw4Rb6SwkzH/edit?usp=sharing&ouid=116304087856521259032&rtpof=true&sd=true) of our meetings are linked externally for better tracking. 
