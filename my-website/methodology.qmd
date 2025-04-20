@@ -206,6 +206,14 @@ However, the relatively small increase (+2.4 percentage points) highlights that 
 This suggests that while the city is moving in the right direction, accelerated and location-sensitive greening strategies are still needed to meet long-term urban sustainability goals.
 
 
+### 3.2.4 Private Greenery
+![Fig 1.7 Private Greenery in Chong Nonsi](assets/CN_private_greenery.jpg){fig-align="center" fig-cap="Private Greenery in Chong Nonsi"}
+
+![Fig 1.8 Private Greenery in Lat Phrao](assets/LP_private_greenery.jpg){fig-align="center" fig-cap="Private Greenery in Lat Phrao"}
+
+While satellite imagery and NDVI analysis indicate substantial green coverage in districts such as Lat Phrao and Chong Nonsi, ground-truthing and spatial analysis reveal a critical discrepancy: a significant proportion of these green areas are not accessible to the public. As seen in Figures 1.7 and 1.8, many of the largest green parcels are privately owned—such as cemeteries, embassies, private sports clubs, and land reserved for future development. These spaces contribute to greenery statistics but do not support public use or ecosystem services such as recreation, walkability, or social equity.
+
+In both Lat Phrao and Chong Nonsi, some of the largest individual green lots are completely fenced off, further inflating coverage figures. Publicly accessible greenery is thus highly fragmented and spatially limited, particularly in high-density zones. The discrepancy between “green coverage” and “usable green space” must be acknowledged to avoid misleading policy conclusions. Future planning should distinguish between total green land and public-accessible greenery to more accurately assess urban livability.
 
 ### References
 
