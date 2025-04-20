@@ -43,8 +43,8 @@ The key methodologies of this project include:
 
 - Data Preparation and exploration
     - Data sourced from
-        - Copernicus Landsat 2A
-        - Bangkok Administrative GeoJSON: https://data.humdata.org/dataset/cod-ab-tha
+        - [Copernicus Landsat 2A Satellite Imagery](https://www.copernicus.eu/en/access-data/conventional-data-access-hubs)
+        - [Bangkok Administrative GeoJSON](https://data.humdata.org/dataset/cod-ab-tha)
         
 
 - Land cover classification with statistical and machine learning algorithms
@@ -54,3 +54,7 @@ The key methodologies of this project include:
 - Land cover change analysis
 
 In particular, the Semi-Automatic Classification Plugin and Raster Calculator in QGIS is used for this project in land cover classification and change analysis
+
+
+## Note
+Due to the large file size of our interactive Web Map, we are unable to deploy it on Netlify. Instead, we invite you to refer to our [Github](https://github.com/HewZiWei-smu/SMTG1T1) page and run it on localhost should you wish to view our analysis on the Web browser. 
